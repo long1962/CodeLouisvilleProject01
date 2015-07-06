@@ -1,0 +1,187 @@
+/******************************/
+/***   Full screen image    ***/
+/******************************/
+#indexBackground,
+#menuBackground {
+  background-image: url(../img/Fire-And-Smoke.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
+
+/******************************/
+/***        General         ***/
+/*******************************/
+body {
+  font-family: 'Verdana', sans-serif;
+  }
+
+#menu {
+	width: 100%;
+  position: fixed;
+  background: rgb(240, 87, 45); 
+  height: 40px;
+	padding: 0 5px;
+	text-align: center;
+  top: 0;
+  z-index: 100;
+  } 
+
+/*******************************/
+/***       Navigation        ***/
+/*******************************/
+ul {
+	list-style: none;
+  }
+
+ul li {
+	display: inline-block;
+	width: 84px;
+	text-align: center;
+  }
+
+ul li a {
+	color: #fff;
+	width: 100%;
+	line-height: 60px;
+	text-decoration: none;
+  font-size: 1.2em;
+  }
+
+ul li.selected {
+	background: #fff;
+  }
+
+ul li.selected a {
+	color: #384047;
+  }
+
+#select {
+	width: 100%;
+	margin: 11px  0 11px 2%;
+	float: left;
+  }
+
+/*******************************/
+/*** Logo and Image sectionn ***/
+/*******************************/
+.container {
+  display: inline-block;
+  width: 100%;
+  margin: 40px 0 0 0;
+  padding: 5% 0;
+  } 
+
+.indexPgImg,
+.menuPgImg {
+  border: 5px solid rgb(240, 87, 45);
+  } 
+
+.indexPgImg {
+  width: 75%;
+  border-radius: 50%;
+  text-align: center;
+  }
+
+.menuPgImg {
+  width: 40%;
+  border-radius: 10%;
+  } 
+
+/*******************************************/
+/*** Page informatopm "info" div section ***/
+/*******************************************/
+.indexInfo,
+.menuInfo {
+  display: inline-block;
+  text-align: left;
+  background-color: rgb(240, 87, 45);
+  border: 2px solid black;
+  width: 100%;
+  padding: 2% 2%;
+  margin: 10% 0%;
+  } 
+
+.indexInfo,
+.menuInfo h1 {  
+  font-size: 100%;
+  color: black;
+  font-weight: 600;
+  margin-bottom: 1%;
+  padding: 3% 2%;
+  }
+
+.indexInfo h2,
+.menuInfo h2 {  
+  font-size: 90%;
+  color: black;
+  font-weight: 600;
+  margin-bottom: 1%;
+  padding-top: 2%;
+  }
+
+.indexInfo p,
+.menuPgInfo p {
+  color: Black;
+  font-size: 80%;
+  font-weight: 500;
+  margin-bottom: 1%;
+  padding: 3%;
+  }
+
+.menuInfo p1 {
+  color: Black;
+  margin-bottom: 1%;
+  font-style: italic;
+  }
+
+#pizzaImg01,
+#gallery {
+  display: none;
+  }
+
+
+/*******************************/
+/*** Picture Overlay Coding  ***/
+/*******************************/
+#overlay {
+  background:rgba(0,0,0,.8);
+  width:100%;
+  height:300%;
+  position: fixed;
+  top:0;
+  left:0;
+  display:none;
+  text-align:center;  
+	}
+
+#overlay img {
+  margin-top: 10%;
+  max-width: 50%;
+  }
+
+#overlay p {
+  color:white;
+  }
+
+/*******************************/
+/*** Footer                  ***/
+/*******************************/
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50 px;
+  color: #CCC;
+  }
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px 5px 0;
+  } 
+
+.clearfix {
+  overflow: auto;
+}

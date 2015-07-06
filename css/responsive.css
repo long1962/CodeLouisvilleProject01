@@ -1,0 +1,102 @@
+/** 
+Modify CSS to hide links on small width and show button and select
+Also hides select and button on larger width and show's links
+**/
+
+@media screen and (max-width: 480px) {
+#menu ul {
+    display:none;
+  }
+}
+
+
+/************************************************************/
+@media screen and (min-width: 480px) {
+#menu select, #menu button {
+    display:none;
+  }
+
+#menu {
+  height: 60px;
+  width 80%: 
+  }
+  
+/**********************************/
+/*** Below menu header Images   ***/
+/**********************************/
+
+.indexInfo,
+.menuInfo {
+  width: 80%; 
+  margin: 0% 10% 0% 10%; 
+  }
+    
+  
+/**********************************/
+/*** Below menu header Images   ***/
+/**********************************/
+.container {
+  width: 80%;
+  margin: 0% 10% 0% 10%; 
+  }
+ 
+.indexPgImg,
+.menuPgImg {
+  margin: 75px 10% 0% 10%; 
+  float: center;
+  width: 80%;
+  } 
+  
+.indexPgImg {
+  width: 75%;
+  } 
+  
+.menuPgImg {
+  width: 40%;
+  } 
+
+#pizzaImg01 {
+  display: inline-block;
+  width: 15%;
+  border-radius: 10%;
+  margin-right: 2%;
+  border: 1px solid black;
+  float: left;
+} 
+
+  
+/**************************/
+/*** gallery of images  ***/
+/**************************/
+  
+ #gallery {
+	display: block;
+   width: 100%;
+	margin:100px auto;
+	}
+
+#gallery a {
+	text-decoration:none;
+	}
+
+#gallery .item {
+	width: 200px;
+  height: 200px;
+  overflow: hidden;
+	float: left;
+	border: 5px solid #333;
+	margin: 5px;
+	}
+
+#gallery .item a { 
+    overflow: hidden;
+	}
+
+#gallery .item a img {
+	height: 100%; 
+	align-self: center;
+	}
+  
+} <!-- End nin-width: 568px -->
+
+
