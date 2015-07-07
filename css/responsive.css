@@ -31,7 +31,6 @@ Also hides select and button on larger width and show's links
   margin: 0% 10% 0% 10%; 
   }
     
-  
 /**********************************/
 /*** Below menu header Images   ***/
 /**********************************/
@@ -65,34 +64,33 @@ Also hides select and button on larger width and show's links
 } 
 
   
-/**************************/
-/*** gallery of images  ***/
-/**************************/
+/*******************************/
+/*** Menu gallery of images  ***/
+/*******************************/
+
+#gallery {
+  display: inline-block;
+  margin: 75px 10% 0% 10%; 
+  float: center;
+  width: 80%;
+  }
   
- #gallery {
-	display: block;
-   width: 100%;
-	margin:100px auto;
-	}
-
-#gallery a {
-	text-decoration:none;
-	}
-
-#gallery .item {
-	width: 200px;
-  height: 200px;
+#gallery .foodImg {
+ /* width: 20%;*/
+  width: 20%;
+  height: 20%;
+  border-radius: 10%;
+  margin-right: 2%;
+  border: 5px solid #333;
+  float: left;
   overflow: hidden;
-	float: left;
-	border: 5px solid #333;
-	margin: 5px;
+  }
+  
+#gallery .foodImg a {
+  overflow: hidden;
 	}
-
-#gallery .item a { 
-    overflow: hidden;
-	}
-
-#gallery .item a img {
+  
+#gallery .foodImg a img {
 	height: 100%; 
 	align-self: center;
 	}

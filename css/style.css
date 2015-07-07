@@ -14,7 +14,7 @@
 /***        General         ***/
 /*******************************/
 body {
-  font-family: 'Verdana', sans-serif;
+  font-family: 'Arial', sans-serif;
   }
 
 #menu {
@@ -74,7 +74,8 @@ ul li.selected a {
   } 
 
 .indexPgImg,
-.menuPgImg {
+.menuPgImg,
+.aboutPgImg {
   border: 5px solid rgb(240, 87, 45);
   } 
 
@@ -89,6 +90,21 @@ ul li.selected a {
   border-radius: 10%;
   } 
 
+.aboutPgImg {
+  width: 60%;
+  border-radius: 50%;
+  text-align: center
+  } 
+
+
+.aboutContainer {
+  display: inline-block;
+  width: 80%;
+  margin: 40px 20% 0 20%;
+  padding: 5% 0;
+  } 
+
+
 /*******************************************/
 /*** Page informatopm "info" div section ***/
 /*******************************************/
@@ -99,47 +115,72 @@ ul li.selected a {
   background-color: rgb(240, 87, 45);
   border: 2px solid black;
   width: 100%;
-  padding: 2% 2%;
-  margin: 10% 0%;
+  padding: 5% 2%;
+  margin: 10% 0 0 0;
   } 
 
-.indexInfo,
-.menuInfo h1 {  
-  font-size: 100%;
-  color: black;
+.menuInfo h1 {
+  font-size: 145%;
+  color: #333;
   font-weight: 600;
-  margin-bottom: 1%;
-  padding: 3% 2%;
   }
 
 .indexInfo h2,
 .menuInfo h2 {  
-  font-size: 90%;
+  font-size: 110%;
   color: black;
   font-weight: 600;
   margin-bottom: 1%;
   padding-top: 2%;
   }
 
+.indexInfo h3,
+.menuInfo h3 {  
+  font-size: 100%;
+  color: black;
+  font-weight: 600;
+  margin-bottom: 0%;
+  padding-top: 2%;
+  }
+
 .indexInfo p,
-.menuPgInfo p {
+.menuInfo p {
   color: Black;
-  font-size: 80%;
+  font-size: 90%;
   font-weight: 500;
   margin-bottom: 1%;
-  padding: 3%;
+  padding-left: 3%;
   }
 
 .menuInfo p1 {
   color: Black;
   margin-bottom: 1%;
   font-style: italic;
+  padding-left: 3%;
   }
 
 #pizzaImg01,
 #gallery {
   display: none;
   }
+
+
+/*******************************************/
+/*** Find Us information "contact" div section ***/
+/*******************************************/
+
+#map {
+  margin: 0% 20% 20% 20%;
+}
+
+/*******************************************/
+/*** About "about" div section ***/
+/*******************************************/
+
+.contactPg,
+.aboutPg {
+  background-color: burlywood; 
+  } 
 
 
 /*******************************/
@@ -169,11 +210,14 @@ ul li.selected a {
 /*** Footer                  ***/
 /*******************************/
 footer {
-  font-size: 0.75em;
-  text-align: center;
-  clear: both;
-  padding-top: 50 px;
-  color: #CCC;
+  width: 100%;
+  background: rgba(240, 87, 45, 1); 
+  padding: 1.5% 0 1% 0;
+  margin-top: 2%;
+	text-align: center;
+  bottom: 0;
+  border: 2px solid #111;
+ 
   }
 
 .social-icon {
